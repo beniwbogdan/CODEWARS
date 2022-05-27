@@ -3,7 +3,7 @@ function digitize(n) {
 
     let myFunc = n => Number(n);
     let intArr = Array.from(String(n), myFunc);
-    return intArr.reverse();
+    console.log(intArr);
 
 }
 digitize(1234);
