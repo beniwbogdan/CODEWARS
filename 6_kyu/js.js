@@ -1,3 +1,4 @@
+//CODEWARS
 function toCamelCase(str) {
     str = str.split('');
     return str.map(function (el, i) {
